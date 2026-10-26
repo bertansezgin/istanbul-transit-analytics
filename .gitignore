@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+data/raw/
+data/warehouse.duckdb
+data/warehouse.duckdb.wal
+*.tmp
+.DS_Store
+data/agg/daily_line/
+data/agg/hourly_mode/
+data/agg/station_daily/
+data/agg/ingest_run.log
