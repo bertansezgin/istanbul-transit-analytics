@@ -7,7 +7,7 @@ business KPIs and dashboards.
 
 **Stack:** Python · DuckDB (SQL) · star schema · pytest data quality checks · matplotlib · Tableau Public
 
-> Dashboard: _Tableau Public link here_
+> **Dashboard:** [Istanbul Public Transport Analytics on Tableau Public](https://public.tableau.com/app/profile/bertan.sezgin/viz/IstanbulPublicTransportAnalytics/IstanbulPublicTransport2020-2024)
 
 ![Recovery index](docs/figures/01_recovery_index.png)
 
@@ -98,8 +98,9 @@ python -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python analysis/report.py
 ```
 
-Tableau Public: the dashboard layout is described in [`tableau/DASHBOARD.md`](tableau/DASHBOARD.md);
-its inputs are the CSV files in `tableau/data/`.
+Tableau Public: the [published dashboard](https://public.tableau.com/app/profile/bertan.sezgin/viz/IstanbulPublicTransportAnalytics/IstanbulPublicTransport2020-2024) is built from the four small CSV files in
+`tableau/upload/`; the full mart extracts are in `tableau/data/` and the planned layout is in
+[`tableau/DASHBOARD.md`](tableau/DASHBOARD.md).
 
 ## Source and licence
 

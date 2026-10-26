@@ -15,6 +15,20 @@ The CSV files in `tableau/data/` are produced by `python analysis/report.py`. Ea
 | `mart_district_monthly.csv` | month x district | district ranking / map |
 | `mart_holiday_effect.csv` | holiday day | holiday impact bar |
 
+## Published version
+
+[Istanbul Public Transport Analytics](https://public.tableau.com/app/profile/bertan.sezgin/viz/IstanbulPublicTransportAnalytics/IstanbulPublicTransport2020-2024) on Tableau Public, one dashboard with four sheets, built
+from the CSV files in `tableau/upload/`:
+
+| Sheet | File | Chart |
+|---|---|---|
+| Recovery index | `monthly_kpis.csv` | line, month vs. `recovery_index` (Jan-Feb 2020 = 100) |
+| Mode share | `mode_monthly.csv` | line per mode, month vs. `share_pct` |
+| Hourly profile 2023 | `hourly_2023.csv` | bars, hour vs. `avg_boardings`, weekday and weekend rows |
+| Top stations 2023 | `top_stations_2023.csv` | bars, `boardings` by station, sorted |
+
+The sections below are the fuller layout planned for later versions.
+
 ## Dashboard 1: Overview
 
 1. **KPI cards** (latest full year, from `mart_monthly_kpis`): total boardings, average daily boardings,
